@@ -1,97 +1,35 @@
 ---
-title: "Introduction"
-description: "Welcome to the new home for your documentation"
+title: "Vela Exchange Documentation"
+description: "A high-performance verifiable spot DEX built by Monolith Systematic LLC."
 ---
 
-## Setting up
+Welcome to the Vela Exchange documentation. Vela is a central limit order book (CLOB) spot exchange where every match is cryptographically verifiable.
 
-Get your documentation site up and running in minutes.
-
-<Card
-  title="Start here"
-  icon="rocket"
-  href="/quickstart"
-  horizontal
->
-  Follow our three step quickstart guide.
-</Card>
-
-## Make it yours
-
-Design a docs site that looks great and empowers your users.
-
-<Columns cols={2}>
-  <Card
-    title="Edit locally"
-    icon="pen-to-square"
-    href="/development"
-  >
-    Edit your docs locally and preview them in real time.
+<CardGroup cols={2}>
+  <Card title="What is Vela?" icon="book" href="/introduction/what-is-vela">
+    Learn about Vela's architecture, performance, and design philosophy.
   </Card>
-  <Card
-    title="Customize your site"
-    icon="palette"
-    href="/essentials/settings"
-  >
-    Customize the design and colors of your site to match your brand.
+  <Card title="Getting Started" icon="rocket" href="/getting-started/connect-wallet">
+    Connect your wallet and place your first order in minutes.
   </Card>
-    <Card
-    title="Set up navigation"
-    icon="map"
-    href="/essentials/navigation"
-  >
-    Organize your docs to help users find what they need and succeed with your product.
+  <Card title="API Reference" icon="code" href="/api-reference/http">
+    Full HTTP and WebSocket API documentation for developers.
   </Card>
-  <Card
-    title="API documentation"
-    icon="terminal"
-    href="/api-reference/introduction"
-  >
-    Auto-generate API documentation from OpenAPI specifications.
+  <Card title="Market Making" icon="chart-line" href="/market-making/credit-system">
+    Learn about Vela's capital-efficient MM credit system.
   </Card>
-</Columns>
+</CardGroup>
 
-## Create beautiful pages
+<Info>
+Vela is currently in **public beta**. Deposits are trust-based and not settled on-chain. Do not deposit significant funds.
+</Info>
 
-Everything you need to create world-class documentation.
+## Key Stats
 
-<Columns cols={2}>
-  <Card
-    title="Write with MDX"
-    icon="pen-fancy"
-    href="/essentials/markdown"
-  >
-    Use MDX to style your docs pages.
-  </Card>
-  <Card
-    title="Code samples"
-    icon="code"
-    href="/essentials/code"
-  >
-    Add sample code to demonstrate how to use your product.
-  </Card>
-  <Card
-    title="Images"
-    icon="image"
-    href="/essentials/images"
-  >
-    Display images and other media.
-  </Card>
-  <Card
-    title="Reusable snippets"
-    icon="recycle"
-    href="/essentials/reusable-snippets"
-  >
-    Write once and reuse across your docs.
-  </Card>
-</Columns>
-
-## Need inspiration?
-
-<Card
-  title="See complete examples"
-  icon="stars"
-  href="https://mintlify.com/customers"
->
-  Browse our showcase of exceptional documentation sites.
-</Card>
+| Metric | Result |
+|---|---|
+| Match latency (p50) | 1.08 μs |
+| Throughput | 57.3k ops/sec |
+| vs. Pulse baseline | 4.7× faster |
+| p99.9 tail reduction | −73% |
+| Tests passing | 73/73 |
