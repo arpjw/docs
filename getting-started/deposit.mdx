@@ -7,6 +7,13 @@ description: "How to fund your Vela account — ETH and USDC on-chain, or trust-
 
 Vela supports two deposit modes depending on the asset:
 
+| Asset | Settlement |
+|-------|------------|
+| ETH | On-chain (VelaSettlement.sol) |
+| USDC | On-chain (VelaSettlement.sol, ERC20) |
+| Other assets | Trust-based (beta) |
+
+
 - **ETH** — fully on-chain via the VelaSettlement smart contract on Ethereum Sepolia. Your funds are locked in the contract, not held by Vela.
 - **USDC** — fully on-chain via the VelaSettlement smart contract on Ethereum Sepolia. Requires a two-step approve + deposit flow.
 - **Other assets (BTC, SOL, AVAX, etc.)** — trust-based beta deposits. Funds are credited directly to your engine balance.

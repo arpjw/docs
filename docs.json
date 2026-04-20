@@ -33,7 +33,7 @@
         "groups": [
           {
             "group": "Introduction",
-            "pages": ["introduction/what-is-vela", "introduction/architecture", "introduction/whitepaper"]
+            "pages": ["introduction/what-is-vela", "introduction/architecture", "introduction/whitepaper", "introduction/changelog"]
           },
           {
             "group": "Getting Started",
@@ -41,11 +41,19 @@
           },
           {
             "group": "Trading",
-            "pages": ["trading/order-types", "trading/time-in-force", "trading/order-book", "trading/fees"]
+            "pages": ["trading/order-types", "trading/time-in-force", "trading/order-book", "trading/fees", "trading/referrals"]
           },
           {
             "group": "Market Making",
-            "pages": ["market-making/api-guide", "market-making/credit-system", "market-making/private-feeds", "market-making/dashboard"]
+            "pages": ["market-making/overview", "market-making/api-guide", "market-making/credit-system", "market-making/private-feeds", "market-making/dashboard"]
+          },
+          {
+            "group": "Engine",
+            "pages": ["engine/fee-framework", "engine/copy-on-write", "engine/hft-nonces"]
+          },
+          {
+            "group": "Transparency",
+            "pages": ["transparency/websocket"]
           },
           {
             "group": "Architecture",
@@ -66,7 +74,7 @@
         "groups": [
           {
             "group": "API Reference",
-            "pages": ["api-reference/authentication", "api-reference/http", "api-reference/websocket", "api-reference/errors"]
+            "pages": ["api-reference/introduction", "api-reference/authentication", "api-reference/http", "api-reference/websocket", "api-reference/errors"]
           }
         ]
       }
