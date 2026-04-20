@@ -45,7 +45,7 @@
           },
           {
             "group": "Market Making",
-            "pages": ["market-making/credit-system", "market-making/private-feeds", "market-making/dashboard"]
+            "pages": ["market-making/api-guide", "market-making/credit-system", "market-making/private-feeds", "market-making/dashboard"]
           },
           {
             "group": "Architecture",
